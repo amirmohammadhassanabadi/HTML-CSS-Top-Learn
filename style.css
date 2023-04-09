@@ -1,3 +1,8 @@
-div {
-    color: red;
+hr {
+    border-width: 5px;
+    margin: 10%;
+}
+
+p {
+    font-style: italic;
 }
