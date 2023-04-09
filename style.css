@@ -1,0 +1,47 @@
+.models{
+    border: 1px solid black;
+    width: 1400px;
+}
+
+.s{
+    width: 600px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.sp{
+    margin-left: 10px;
+}
+
+.gt{
+    width: 600px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.gtp{
+    margin-left: 10px;
+}
+
+.g63{
+    width: 600px;
+    height: auto;
+    margin-left: 10px;
+}
+.g63p{
+    margin-left: 10px;
+}
+.gls{
+    width: 600px;
+    height: auto;
+    margin-left: 10px;
+}
+.glsp{
+    margin-left: 10px;
+}
+img{
+    opacity: 50%;
+}
+img:hover{
+    opacity: 100%;
+}
