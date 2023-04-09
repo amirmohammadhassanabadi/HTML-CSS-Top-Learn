@@ -1,8 +1,12 @@
-hr {
-    border-width: 5px;
-    margin: 10%;
+#list {
+    list-style-type: disc;
 }
 
-p {
-    font-style: italic;
+.f1 {
+    float: left;
+    margin-left: 20px;
+}
+
+.last {
+    list-style-type: lower-alpha;
 }
