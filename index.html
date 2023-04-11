@@ -5,43 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice 9</title>
+    <title>Practice 10</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <table>
-        <caption>Swim Competition Ranking</caption>
-        <tr>
-            <th>Rank</th>
-            <th colspan="2">Name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Tommy</td>
-            <td>Johnson</td>
-            <td>18</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Bryan</td>
-            <td>Botrin</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td rowspan="2">3</td>
-            <td>Maic</td>
-            <td>Barton</td>
-            <td>19</td>
-        </tr>
-        <tr>
-            <td>Sam</td>
-            <td>Stellar</td>
-            <td>19</td>
-        </tr>
+        <caption>Devices we need</caption>
+        <colgroup>
+            <col class="col1">
+            <col class="col2">
+            <col class="col3">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Num</th>
+                <th>Device</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Imac 27 Inches</td>
+                <td>9,500$</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Iphone 13 ProMax</td>
+                <td>2,000$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Apple Watch Series 7</td>
+                <td>885$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="last-row">
+                <td>4</td>
+                <td>Total</td>
+                <td class="last-price">12,385$</td>
+            </tr>
+        </tfoot>
     </table>
-
 </body>
 
 </html>
