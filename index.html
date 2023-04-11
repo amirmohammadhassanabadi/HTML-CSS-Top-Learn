@@ -1,31 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../style.css">
-    <title>test</title>
+    <title>Session 15</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <label for="progress">HTML</label>
-    <progress max="100" value="50">
-        50%
-    </progress>
-
-    <label for="car">Choose a Category</label>
-
-    <select>
-        <optgroup label="دسته بندی اول">
-            <option value="" disabled>طراحی سایت</option>
-            <option value="">برنامه نویسی وب</option>
-            <option value="" selected>سیستم عامل</option>
-        </optgroup>
-
-    </select>
-
+    <form action="#" target="_blank">
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="fname">Firstname</label>
+        <input id="fname" type="text" value="" placeholder="Firstname">
+        <br>
+        <label for="lname">Lastname</label>
+        <input id="lname" type="text" value="" placeholder="Lastname">
+        <br>
+        <label for="cars">choose your Car brand</label>
+        <select name="cars" id="cars" size="1" multiple>
+            <option value="BMW">BMW</option>
+            <option value="Benz">Benz</option>
+            <option value="Ford">Ford</option>
+            <option value="Lexus">Lexus</option>
+            <option value="Aston Martin">Aston Martin</option>
+            <option value="Lamborghini">Lamborghini</option>
+        </select>
+        <br>
+        <input list="Browsers">
+        <datalist id="Browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Edge">
+            <option value="Opera">
+        </datalist>
+        <br>
+        <input type="reset" value="reset">
+    </fieldset>
+    </form>
+    <form action="#" target="_blank">
+        <label for="date">birthday</label>
+        <input type="date" id="date" value="date" max="2022-4-23">
+        <input type="submit" value="submit">
+    </form>
+    <form action="#">
+        <label for="fname">Firstname</label>
+        <input type="text" id="fname" value="satochi" maxlength="10" required>
+        <label for="Lname">lasstname</label>
+        <input type="text" id="Lname" value="Nakamoto" readonly>
+        <br>
+        <input type="submit">
+        <form>
+            <label for="points">Points:</label>
+            <input type="number" id="points" name="points" step="290">
+          </form>
+          <form action="#">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+          
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname">
+    </form>       
 </body>
-
 </html>
