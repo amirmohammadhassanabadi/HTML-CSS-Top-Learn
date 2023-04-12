@@ -1,23 +1,28 @@
-/* p {
-    color: red;
-} */
-
-
-/* .red {
-    color: red;
-} */
-
-
-/* #blue {
-    color: blue;
-} */
-
-
-/* div,
-p {
-    color: green;
-} */
-
-* {
-    color: red;
+body{
+    background-image: url(./img/10-breathtaking-views-1-orig.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 1000px;
+    height: auto;
+}
+.p1{
+    border: 5px dotted black;
+    background-color: antiquewhite;
+    padding: 10px;
+    background-clip: padding-box;
+}
+.p2{
+    border: 5px dotted black;
+    background-color: rgb(242, 255, 170);
+    padding: 10px;
+    background-clip: border-box;
+}
+.p3{
+    border: 2px solid black;
+    background-color: aquamarine;
+    padding: 10px;
+    background-clip: content-box;
+}
+.test{
+    font-size: 5cm;
 }
