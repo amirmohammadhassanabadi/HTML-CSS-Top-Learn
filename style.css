@@ -1,8 +1,12 @@
-body{
-    background-color: rgb(47, 46, 50);
-    text-align: center;
+.france{
+    width: 30%;
+    height: auto;
 }
-img{
-    width: 600px;
+.Ger{
+    width: 30%;
+    height: auto;
+}
+.ita{
+    width: 30%;
     height: auto;
 }
