@@ -1,15 +1,9 @@
-/* p{
-    color: aliceblue;
-    background-image: url(./img/1385482.jpg);
-    background-position: center;
-    border: 2px solid black;
-    padding: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-body {
-    background: url(./img/1385482.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    color: aliceblue;
+div {
+    border-width: 1px 5px 10px 15px;
+    border-style: solid;
+}
+
+p {
+    font-size: 30px;
+    margin: 5px;
 }
