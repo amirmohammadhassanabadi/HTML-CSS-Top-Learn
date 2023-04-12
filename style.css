@@ -1,3 +1,23 @@
-p{
-    color:steelblue;
+/* p {
+    color: red;
+} */
+
+
+/* .red {
+    color: red;
+} */
+
+
+/* #blue {
+    color: blue;
+} */
+
+
+/* div,
+p {
+    color: green;
+} */
+
+* {
+    color: red;
 }
