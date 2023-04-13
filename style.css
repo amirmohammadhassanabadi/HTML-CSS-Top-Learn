@@ -1,4 +1,10 @@
 div{
-    margin: auto;
-    text-align: center;
+    width: 50%;
+    max-width: 500px;
+    min-width: none;
+    height:300px;
+    max-height: none;
+    min-height: none;
+    background-color: bisque;
+    border: 1px solid;
 }
