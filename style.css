@@ -1,34 +1,26 @@
 @font-face {
-    font-family: IranNastaliq;
-    src: url('fonts/IranNastaliq.eot') format(eot);
-    src: url('fonts/IranNastaliq.woff') format(woff);
-    src: url('fonts/IranNastaliq.ttf') format(ttf);
+    font-family: "Niconne-Regular.ttf";
+    src: url("font/Niconne-Regular.ttf");
 }
 
-.title {
-    direction: rtl;
-    font-family: iranNastaliq;
+body{
+    background-color: rgb(255, 73, 73);
 }
 
-.volleyball {
-    direction: rtl;
-    font-family: iranNastaliq;
-    font-weight: 500;
-}
-
-.photo1 {
-    float: right;
-    height: 400px;
-    width: auto;
-    border: 2px solid;
+.box {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 73, 73);
     border-radius: 10px;
-    margin-left: 50px;
+    margin: auto;
+    padding-top: -50px;
 }
 
-.photo2 {
-    float: right;
-    height: 400px;
-    width: auto;
-    border: 2px solid;
-    border-radius: 10px;
+.roses {
+    color: white;
+    font-family: "Niconne-Regular.ttf";
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 2px 2px .5px rgb(255, 60, 0), 4px 4px .5px rgb(255, 157, 0), 6px 6px .5px rgb(106, 219, 176), 8px 8px .5px rgb(89, 184, 147), 10px 10px .5px rgb(31, 75, 59), 16px 14px 10px rgb(0, 0, 0);
 }
