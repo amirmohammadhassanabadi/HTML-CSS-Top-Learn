@@ -1,26 +1,51 @@
-body{
-    background-color: rgb(27, 27, 27);
-    color: aliceblue; 
+div {
+    width: 800px;
+    height: 300px;
+    border: 3px solid;
+    border-radius: 15px;
+    background-color: rgb(238, 238, 238);
+    margin: auto;
 }
-p{
-    text-transform: lowercase;
+
+img{
+    cursor: pointer;
 }
-p{
-    text-indent: 30px;
-}
-p{
-    letter-spacing: 10px;
-    word-spacing: 40px;
-    line-height: 3;
-    white-space: pre;
-}
-h1{
-    text-shadow: 10px 10px 10px gray;
-}
-div{
-    width: 150px;
+
+.search {
+    width: 200px;
+    height: auto;
     border: 2px solid;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.search:hover {
+    opacity: 50%;
+}
+
+.location {
+    width: 200px;
+    height: auto;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.location:hover {
+    opacity: 50%;
+}
+
+.user {
+    width: 200px;
+    height: auto;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.user:hover {
+    opacity: 50%;
 }
