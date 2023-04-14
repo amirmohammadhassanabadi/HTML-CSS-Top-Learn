@@ -1,14 +1,33 @@
-/* div div span p{
-    color:forestgreen;
-    background-color: antiquewhite;
-    width: fit-content;
-} */
-/* .div-1 .div-2 .span-1 .p-1{
-    color: #d6ed17ff;
-    background-color: #606060ff;
-    width: fit-content;
-} */
-p+div {
-    background-color: salmon;
-    width: fit-content;
+h1 {
+    text-align: center;
+}
+
+.second {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first::before {
+    color: orange;
+    font-size: 40px;
+    font-family: FontAwesome;
+    content: "\f100";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.first::after {
+    color: orange;
+    font-size: 40px;
+    font-family: FontAwesome;
+    content: "\f101";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.second::before {
+    color: orange;
+    content: "//  ";
+    vertical-align: middle;
 }
