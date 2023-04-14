@@ -1,88 +1,48 @@
 body {
-    background: rgb(12, 36, 66);
-    background: linear-gradient(160deg, rgba(12, 36, 66, 1) 23%, rgba(0, 141, 255, 1) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(46, 46, 46);
 }
 
-form {
-    width: 25%;
-    background-color: rgb(247, 247, 247);
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
+.div-1 {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border: 2px solid antiquewhite;
+    margin-left: 100px;
     margin-top: 200px;
-    margin-bottom: 230px;
-    position: relative;
+    float: left;
+    transition: 2s, transform 2s;
 }
 
-h3 {
-    text-align: center;
-    padding-top: 40px;
+.div-1:hover {
+    transform: scale(1.2, 1.2) rotate(180deg);
 }
 
-span {
-    color: rgba(0, 141, 255, 1);
+.div-2 {
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+    border: 2px solid antiquewhite;
+    margin-left: 100px;
+    margin-top: 200px;
+    float: left;
+    transition: 2s, transform 2s;
 }
 
-input {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.div-2:hover {
+    transform: scale(1.2, 1.2) rotate(180deg);
 }
 
-input:focus{
-    outline: 0;
-    border-bottom: 1px solid rgba(12, 36, 66, 1) !important;
+.div-3 {
+    width: 300px;
+    height: 300px;
+    background-color: gold;
+    border: 2px solid antiquewhite;
+    margin-left: 100px;
+    margin-top: 200px;
+    float: left;
+    transition: 2s, transform 2s;
 }
 
-input:not([type=submit]) {
-    padding: 10px;
-    margin-left: 10%;
-    width: 73%;
-    border: none;
-    border-bottom: 1px solid rgba(0, 141, 255, 1);
-    background-color: rgb(247, 247, 247);
-}
-
-input:not([type=submit]):focus {
-    border: none;
-}
-
-input[type=submit] {
-    padding: 10px;
-    margin-left: 10%;
-    width: 79%;
-    border: none;
-    background: rgb(12, 36, 66);
-    background: linear-gradient(160deg, rgba(12, 36, 66, 1) 23%, rgba(0, 141, 255, 1) 100%);
-    color: rgb(247, 247, 247);
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background: linear-gradient(160deg, rgba(0, 141, 255, 1) 23%, rgba(12, 36, 66, 1) 100%);
-}
-
-.first-p {
-    text-align: center;
-    margin-top: 2px;
-    margin-bottom: 0;
-}
-
-.first-a {
-    text-decoration: none;
-    color: rgb(102, 102, 102);
-}
-
-.second-p {
-    text-align: center;
-    margin-top: 2px;
-    padding-bottom: 30px;
-}
-
-.second-a {
-    text-decoration: none;
-    color: rgba(0, 141, 255, 1);
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+.div-3:hover {
+    transform: scale(1.2, 1.2) rotate(180deg);
 }
