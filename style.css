@@ -1,33 +1,27 @@
-h1 {
-    text-align: center;
+::selection {
+    background-color: orangered;
+    color: antiquewhite;
 }
 
-.second {
-    font-family: Arial, Helvetica, sans-serif;
+.first-p::first-line {
+    background-color: aquamarine;
 }
 
-.first::before {
-    color: orange;
-    font-size: 40px;
-    font-family: FontAwesome;
-    content: "\f100";
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
+div>:first-child::first-letter {
+    font-size: 30px;
+    color: rgb(0, 0, 255);
 }
 
-.first::after {
-    color: orange;
-    font-size: 40px;
-    font-family: FontAwesome;
-    content: "\f101";
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 10px;
+div>:last-child {
+    background-color: salmon;
+    width: fit-content;
 }
 
-.second::before {
-    color: orange;
-    content: "//  ";
-    vertical-align: middle;
+p>div {
+    background-color: aqua;
+}
+
+input:checked {
+    height: 100px;
+    width: 200px;
 }
