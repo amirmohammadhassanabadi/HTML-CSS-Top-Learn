@@ -1,0 +1,88 @@
+body {
+    background: rgb(12, 36, 66);
+    background: linear-gradient(160deg, rgba(12, 36, 66, 1) 23%, rgba(0, 141, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    width: 25%;
+    background-color: rgb(247, 247, 247);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 230px;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+span {
+    color: rgba(0, 141, 255, 1);
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    outline: 0;
+    border-bottom: 1px solid rgba(12, 36, 66, 1) !important;
+}
+
+input:not([type=submit]) {
+    padding: 10px;
+    margin-left: 10%;
+    width: 73%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 141, 255, 1);
+    background-color: rgb(247, 247, 247);
+}
+
+input:not([type=submit]):focus {
+    border: none;
+}
+
+input[type=submit] {
+    padding: 10px;
+    margin-left: 10%;
+    width: 79%;
+    border: none;
+    background: rgb(12, 36, 66);
+    background: linear-gradient(160deg, rgba(12, 36, 66, 1) 23%, rgba(0, 141, 255, 1) 100%);
+    color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: linear-gradient(160deg, rgba(0, 141, 255, 1) 23%, rgba(12, 36, 66, 1) 100%);
+}
+
+.first-p {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.first-a {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+
+.second-p {
+    text-align: center;
+    margin-top: 2px;
+    padding-bottom: 30px;
+}
+
+.second-a {
+    text-decoration: none;
+    color: rgba(0, 141, 255, 1);
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
